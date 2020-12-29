@@ -9,11 +9,13 @@
 }
 html {
   font-size: 62.5%;
+  background-color: gray;
 }
 header {
   width: 70%;
   height: auto;
   margin: 0 auto;
+  padding: 0 10px;
   padding-top: 20px;
   background-color: var(--main-color);
   color: var(--main-font);
@@ -30,6 +32,7 @@ header {
 .header__title p {
   font-size: 1.2rem;
   font-weight: bold;
+  align-self: center;
 }
 .header__menu ul {
   display: flex;
@@ -39,4 +42,14 @@ header {
   list-style: none;
   border-top: 1px solid var(--main-font);
   border-bottom: 1px solid var(--main-font);
+}
+.content {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  padding: 10px;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  background-color: var(--main-color);
+  color: var(--main-font);
 }
