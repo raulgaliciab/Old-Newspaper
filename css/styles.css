@@ -1,0 +1,42 @@
+:root {
+  --main-color: #ead4a9;
+  --main-font: #433630;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 20px;
+  background-color: var(--main-color);
+  color: var(--main-font);
+}
+.header__title {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.header__title h1 {
+  font-family: "Bowlby One SC", cursive;
+  font-size: 2.4rem;
+}
+.header__title p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.header__menu ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+  list-style: none;
+  border-top: 1px solid var(--main-font);
+  border-bottom: 1px solid var(--main-font);
+}
