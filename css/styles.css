@@ -20,6 +20,16 @@ header {
   background-color: var(--main-color);
   color: var(--main-font);
 }
+article {
+  padding: 0 5px;
+}
+h2 {
+  text-align: center;
+  font-size: 2.4rem;
+}
+p {
+  text-align: justify;
+}
 .header__title {
   display: flex;
   justify-content: space-between;
