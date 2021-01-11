@@ -102,3 +102,18 @@ p {
 .content__column-1--notice-3 img {
   width: 62%;
 }
+footer {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: var(--main-font);
+  color: var(--main-color);
+}
+.footer a {
+  text-decoration: none;
+  color: var(--main-color);
+}
