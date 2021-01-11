@@ -90,6 +90,9 @@ p {
 .img--center {
   width: 100%;
 }
+.content__column-1--notice-3 {
+  margin-top: 30px;
+}
 .content__column-1--notice-1 img {
   width: 62%;
 }
